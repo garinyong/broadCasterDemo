@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2B91A46433FC2E599B70A8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 880AAF23DD8C7BE870F0624D /* libPods.a */; };
 		9614EBED1CC7621400129178 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9614EBEC1CC7621400129178 /* main.m */; };
 		9614EBF01CC7621400129178 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9614EBEF1CC7621400129178 /* AppDelegate.m */; };
-		9614EBF31CC7621400129178 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9614EBF21CC7621400129178 /* ViewController.m */; };
+		9614EBF31CC7621400129178 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9614EBF21CC7621400129178 /* ViewController.mm */; };
 		9614EBF61CC7621400129178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614EBF41CC7621400129178 /* Main.storyboard */; };
 		9614EBF81CC7621400129178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9614EBF71CC7621400129178 /* Assets.xcassets */; };
 		9614EBFB1CC7621400129178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614EBF91CC7621400129178 /* LaunchScreen.storyboard */; };
+		9614EC031CC7641500129178 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC021CC7641500129178 /* GLKit.framework */; };
+		9614EC051CC7641E00129178 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC041CC7641E00129178 /* OpenGLES.framework */; };
+		9614EC071CC7642500129178 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC061CC7642500129178 /* CoreVideo.framework */; };
+		9614EC091CC7642C00129178 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC081CC7642C00129178 /* CoreMedia.framework */; };
+		9614EC0B1CC7643400129178 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC0A1CC7643400129178 /* CFNetwork.framework */; };
+		9614EC0D1CC7643B00129178 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC0C1CC7643B00129178 /* AudioToolbox.framework */; };
+		9614EC0F1CC7644100129178 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC0E1CC7644100129178 /* AVFoundation.framework */; };
+		9614EC111CC7644800129178 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC101CC7644800129178 /* Foundation.framework */; };
+		9614EC131CC7644F00129178 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC121CC7644F00129178 /* CoreGraphics.framework */; };
+		9614EC151CC7645600129178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9614EC141CC7645600129178 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		528478580D3460F34E94FF8A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		880AAF23DD8C7BE870F0624D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9614EBE81CC7621400129178 /* broadCasterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = broadCasterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9614EBEC1CC7621400129178 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9614EBEE1CC7621400129178 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9614EBEF1CC7621400129178 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9614EBF11CC7621400129178 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9614EBF21CC7621400129178 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9614EBF21CC7621400129178 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		9614EBF51CC7621400129178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9614EBF71CC7621400129178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9614EBFA1CC7621400129178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9614EBFC1CC7621400129178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9614EC021CC7641500129178 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9614EC041CC7641E00129178 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9614EC061CC7642500129178 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9614EC081CC7642C00129178 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9614EC0A1CC7643400129178 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9614EC0C1CC7643B00129178 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9614EC0E1CC7644100129178 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9614EC101CC7644800129178 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9614EC121CC7644F00129178 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9614EC141CC7645600129178 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5001CC6DB077FCC1A5803F9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9614EC151CC7645600129178 /* UIKit.framework in Frameworks */,
+				9614EC131CC7644F00129178 /* CoreGraphics.framework in Frameworks */,
+				9614EC111CC7644800129178 /* Foundation.framework in Frameworks */,
+				9614EC0F1CC7644100129178 /* AVFoundation.framework in Frameworks */,
+				9614EC0D1CC7643B00129178 /* AudioToolbox.framework in Frameworks */,
+				9614EC0B1CC7643400129178 /* CFNetwork.framework in Frameworks */,
+				9614EC091CC7642C00129178 /* CoreMedia.framework in Frameworks */,
+				9614EC071CC7642500129178 /* CoreVideo.framework in Frameworks */,
+				9614EC051CC7641E00129178 /* OpenGLES.framework in Frameworks */,
+				9614EC031CC7641500129178 /* GLKit.framework in Frameworks */,
+				4B2B91A46433FC2E599B70A8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E81EC09F951C3DFF897E7D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9614EC141CC7645600129178 /* UIKit.framework */,
+				9614EC121CC7644F00129178 /* CoreGraphics.framework */,
+				9614EC101CC7644800129178 /* Foundation.framework */,
+				9614EC0E1CC7644100129178 /* AVFoundation.framework */,
+				9614EC0C1CC7643B00129178 /* AudioToolbox.framework */,
+				9614EC0A1CC7643400129178 /* CFNetwork.framework */,
+				9614EC081CC7642C00129178 /* CoreMedia.framework */,
+				9614EC061CC7642500129178 /* CoreVideo.framework */,
+				9614EC041CC7641E00129178 /* OpenGLES.framework */,
+				9614EC021CC7641500129178 /* GLKit.framework */,
+				880AAF23DD8C7BE870F0624D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9614EBDF1CC7621400129178 = {
 			isa = PBXGroup;
 			children = (
 				9614EBEA1CC7621400129178 /* broadCasterDemo */,
 				9614EBE91CC7621400129178 /* Products */,
+				9DE2BAB9C8BF107B65EB628D /* Pods */,
+				8E81EC09F951C3DFF897E7D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +116,7 @@
 				9614EBEE1CC7621400129178 /* AppDelegate.h */,
 				9614EBEF1CC7621400129178 /* AppDelegate.m */,
 				9614EBF11CC7621400129178 /* ViewController.h */,
-				9614EBF21CC7621400129178 /* ViewController.m */,
+				9614EBF21CC7621400129178 /* ViewController.mm */,
 				9614EBF41CC7621400129178 /* Main.storyboard */,
 				9614EBF71CC7621400129178 /* Assets.xcassets */,
 				9614EBF91CC7621400129178 /* LaunchScreen.storyboard */,
@@ -79,6 +134,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9DE2BAB9C8BF107B65EB628D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5001CC6DB077FCC1A5803F9 /* Pods.debug.xcconfig */,
+				528478580D3460F34E94FF8A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9614EBFF1CC7621400129178 /* Build configuration list for PBXNativeTarget "broadCasterDemo" */;
 			buildPhases = (
+				C006299D70F8915D524D8756 /* Check Pods Manifest.lock */,
 				9614EBE41CC7621400129178 /* Sources */,
 				9614EBE51CC7621400129178 /* Frameworks */,
 				9614EBE61CC7621400129178 /* Resources */,
+				A89A59C28EF7E74B1A85557B /* Embed Pods Frameworks */,
+				BCF163A5638EB12183FB6B04 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,12 +211,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A89A59C28EF7E74B1A85557B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF163A5638EB12183FB6B04 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C006299D70F8915D524D8756 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9614EBE41CC7621400129178 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9614EBF31CC7621400129178 /* ViewController.m in Sources */,
+				9614EBF31CC7621400129178 /* ViewController.mm in Sources */,
 				9614EBF01CC7621400129178 /* AppDelegate.m in Sources */,
 				9614EBED1CC7621400129178 /* main.m in Sources */,
 			);
@@ -261,8 +376,19 @@
 		};
 		9614EC001CC7621400129178 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5001CC6DB077FCC1A5803F9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/boost",
+					"\"${PODS_ROOT}/boost\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/UriParser-cpp\"/**",
+					"\"${PODS_ROOT}/Headers/Public/VideoCore\"/**",
+					"\"${PODS_ROOT}/Headers/Public/boost\"/**",
+					"\"${PODS_ROOT}/Headers/Public/glm\"/**",
+				);
 				INFOPLIST_FILE = broadCasterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.com.broadCasterDemo;
@@ -272,8 +398,19 @@
 		};
 		9614EC011CC7621400129178 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528478580D3460F34E94FF8A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/boost",
+					"\"${PODS_ROOT}/boost\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/UriParser-cpp\"/**",
+					"\"${PODS_ROOT}/Headers/Public/VideoCore\"/**",
+					"\"${PODS_ROOT}/Headers/Public/boost\"/**",
+					"\"${PODS_ROOT}/Headers/Public/glm\"/**",
+				);
 				INFOPLIST_FILE = broadCasterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.com.broadCasterDemo;
@@ -300,6 +437,7 @@
 				9614EC011CC7621400129178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

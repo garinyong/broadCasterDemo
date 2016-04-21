@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *previewView;
+@property (weak, nonatomic) IBOutlet UIButton *btnConnect;
+- (IBAction)btnConnectTouch:(id)sender;
 
+- (IBAction)btnFilterTouch:(id)sender;
 @end
 
